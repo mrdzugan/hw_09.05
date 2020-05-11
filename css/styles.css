@@ -94,13 +94,34 @@ header a:hover{
 /*========= SECTION 4 =========*/
 #section-4{
     padding: 0;
+    height: 210px;
+}
+#section-4 .wrap-content{
+    height: inherit;
 }
 #section-4 .wrap-content div{
-    float: left;
     display: inline-block;
     color: #fff;
     width: 50%;
+    height: inherit;
+    float: left;
 }
 #left-block{
     background-color: #2690d4;
+}
+/*========= FOOTER =========*/
+footer{
+    height: 100px;
+    padding: 40px;
+    background-color: #000;
+}
+footer .wrap-content div{
+    display: inline-block;
+    float: left;
+    color: #fff;
+    width: 50%;
+}
+footer a{
+    text-decoration: none;
+    color: #2690d4;
 }
